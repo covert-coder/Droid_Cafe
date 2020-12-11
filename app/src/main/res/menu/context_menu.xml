@@ -1,31 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.droidCafeInput.MainActivity">
     <item
-        android:id="@+id/action_contact"
+        android:id="@+id/action_home_page"
         android:orderInCategory="100"
-        android:title="@string/contact"
+        android:title="@string/home"
         app:showAsAction="never" />
     <item
-        android:id="@+id/action_order"
+        android:id="@+id/action_about_droidCafe"
         android:icon="@drawable/ic_shopping_cart"
         android:orderInCategory="10"
-        android:title ="@string/order"
-        app:showAsAction="always"/>
+        android:title ="@string/about_droid_cafe"
+        app:showAsAction="ifRoom"/>
     <item
-        android:id="@+id/action_status"
+        android:id="@+id/action_Copyright"
         android:icon="@drawable/ic_status_info"
         android:orderInCategory="20"
-        android:title ="@string/status"
+        android:title ="@string/droid_cafe_copyright"
         app:showAsAction="always"/>
-    <item
-        android:id="@+id/action_favourites"
-        android:icon="@drawable/ic_favourites"
-        android:orderInCategory="30"
-        android:title ="@string/favourites"
-        app:showAsAction="ifRoom"/>
-
-
-
 </menu>

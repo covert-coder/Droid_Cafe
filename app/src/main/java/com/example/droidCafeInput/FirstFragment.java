@@ -1,25 +1,33 @@
-package com.example.droidcafe;
+package com.example.droidCafeInput;
 
+import android.media.Image;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.LayoutInflater;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
+import androidx.core.widget.ImageViewCompat;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.NavController;
-import androidx.navigation.NavHost;
-import androidx.navigation.NavHostController;
-import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
 
 public class FirstFragment extends Fragment {
+private ImageView droidIcon;
+    // obligate empty constructor
+    public FirstFragment() {
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_first, container, false);
+        View view = inflater.inflate(R.layout.fragment_first, container, false);
+       // return inflater.inflate(R.layout.fragment_first, container, false);
+        return view;
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {

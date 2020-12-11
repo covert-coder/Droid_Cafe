@@ -17,5 +17,48 @@
     <string name="froyo_order_message">your frozen yogurt  order is being processed</string>
     <string name="donut_order_message">your donut order is being processed</string>
     <string name="title_activity_order">OrderActivity</string>
+    <string name="floatin_action_button">Floatin_action_button</string>
+    <string name="name_label_text">Name</string>
+    <string name="please_input_your_name">Please input your name</string>
+    <string name="enter_name_hint">Please enter your name</string>
+    <string name="enter_address_hint">Enter your address here</string>
+    <string name="text_address_label">Address</string>
+    <string name="text_phone_label">Phone</string>
+    <string name="editText_phone_hint">your phone number</string>
+    <string name="notes_label">TextView</string>
+    <string name="notes_hint">Include a note, if desired.</string>
+    <string name="choose_a_delivery_method">Choose a Delivery Method</string>
+    <string name="text_same_day">Same Day</string>
+    <string name="text_next_day">Next Day</string>
+    <string name="text_pick_up">Pick Up</string>
+    <string name="same_day_delivery_selected">same day delivery has been selected</string>
+    <string name="next_day_delivery_selected">next day delivery has been selected</string>
+    <string name="Pickup_delivery_selected">pickup has been selected
+    </string>
+    <string name="call_us">Call Us</string>
+    <string name="enter_a_number_to_dial">enter a number to dial</string>
+    <string name="contact">Contact</string>
+    <string name="order">Order</string>
+    <string name="status">Status</string>
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
+    <string name="favourites">Favourites</string>
+    <string name="buttonFirst">Button</string>
+    <string name="droid_cafe_icon">droid_cafe_icon</string>
+    <string name="home">Home</string>
+    <string name="about_droid_cafe">About Droid Cafe</string>
+    <string name="droid_cafe_copyright">Droid Cafe Copyright</string>
+    <string name="call_your_mother">Call Your Mother</string>
+
+    <!-- string-array used for spinner drop-down menu -->
+    <string-array name="Labels_array">
+        <item>None </item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
 
 </resources>

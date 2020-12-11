@@ -1,4 +1,4 @@
-package com.example.droidcafe;
+package com.example.droidCafeInput;
 
 import android.content.Context;
 

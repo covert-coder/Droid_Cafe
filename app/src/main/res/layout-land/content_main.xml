@@ -9,21 +9,24 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_First"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="408dp"
-        android:layout_height="547dp"
+        android:layout_width="606dp"
+        android:layout_height="401dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
         app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/droidCafe_icon"
+        app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/nav_graph" />
 
     <ImageView
         android:id="@+id/droidCafe_icon"
-        android:layout_width="71dp"
-        android:layout_height="123dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="180dp"
-        android:layout_marginRight="180dp"
+        android:layout_width="99dp"
+        android:layout_height="122dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
         android:contentDescription="@string/droid_cafe_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/droid" />
